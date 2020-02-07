@@ -1,0 +1,22 @@
+{
+  "author": "IBM",
+  "engines": {
+    "node": "^0.12.3"
+  },
+ "scripts": {
+    "start": "node app.js"
+ }, 
+ "dependencies": {
+    "body-parser": "^1.12.3",
+    "express": "^4.12.3",
+    "ibmbluemix": "^1.0.0-20150409-1328",
+    "ibmsecurity": "^1.0.0-20150409-1328",
+    "materialize-css": "^0.96.1",
+    "sendgrid": "^1.8.0",
+    "ssl-root-cas": "latest"
+  },
+  "repository": {},
+  "description": "Starts a server which listens for user modules invocation requests.",
+  "license": "IBM",
+  "main": "app.js"
+}

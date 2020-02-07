@@ -1,0 +1,11 @@
+---
+applications:
+- name: catalogm
+  memory: 128M
+  buildpack: sdk-for-nodejs 
+  host: catalogm
+  domain: mybluemix.net
+  command: node app.js
+  timeout: 80
+  instances: 2
+
